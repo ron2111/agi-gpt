@@ -32,7 +32,7 @@ export default function MyDocument({ emotionStyleTags }: MyDocumentProps) {
         {/* Opengraph */}
         <meta property='og:title' content={Brand.Title.Common} />
         <meta property='og:description' content={Brand.Meta.Description} />
-        {Brand.URIs.CardImage && <meta property='og:image' content={Brand.URIs.CardImage} />}
+        {/* {Brand.URIs.CardImage && <meta property='og:image' content={Brand.URIs.CardImage} />} */}
         <meta property='og:url' content={Brand.URIs.Home} />
         <meta property='og:site_name' content={Brand.Meta.SiteName} />
         <meta property='og:type' content='website' />
@@ -42,8 +42,8 @@ export default function MyDocument({ emotionStyleTags }: MyDocumentProps) {
         <meta property='twitter:url' content={Brand.URIs.Home} />
         <meta property='twitter:title' content={Brand.Title.Common} />
         <meta property='twitter:description' content={Brand.Meta.Description} />
-        {Brand.URIs.CardImage && <meta property='twitter:image' content={Brand.URIs.CardImage} />}
-        <meta name='twitter:site' content={Brand.Meta.TwitterSite} />
+        {/* {Brand.URIs.CardImage && <meta property='twitter:image' content={Brand.URIs.CardImage} />} */}
+        {/* <meta name='twitter:site' content={Brand.Meta.TwitterSite} /> */}
         <meta name='twitter:card' content='summary_large_image' />
 
         {/* Style Sheets (injected and server-side) */}
